@@ -4,7 +4,7 @@ import numpy as np
 from os.path import isfile
 from sys import exit,argv
 from scipy import ndimage
-from scipy.ndimage.filters import gaussian_filter
+from scipy.ndimage import gaussian_filter
 from scipy.constants import physical_constants
 import argparse,copy
 import pdb
